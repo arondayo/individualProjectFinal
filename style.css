@@ -1,0 +1,26 @@
+h1,h2,h3,h4 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400; 
+    font-style: normal;
+}
+.nav-link{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400; 
+    font-style: normal;
+    font-size: xx-large;
+}
+#logo{
+    background:url('/assets/icon.svg');
+    transition: background .50s ease-in-out;
+    -moz-transition: background .50s ease-in-out;
+    -webkit-transition: background .50s ease-in-out;
+}
+#logo:hover{
+    background:url('/assets/icon_solved_big.svg');
+    transition: background .50s ease-in-out;
+    -moz-transition: background .50s ease-in-out;
+    -webkit-transition: background .50s ease-in-out;
+}
+*{
+    border: 1px dotted black ;
+}
