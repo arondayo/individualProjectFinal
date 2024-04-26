@@ -15,8 +15,9 @@
       #homeImage{
         background:url(/assets/banner_preview_2.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size:cover;
         background-position: center;
+        height: 100%;
       }
     </style>
   </head>
@@ -24,7 +25,7 @@
     <header>
       <nav class="navbar navbar-expand-lg" style="background-color: #9479d9;" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/index.html">
+          <a class="navbar-brand" href="index.html">
             <div id="logo" style="width:50px;height:50px"></div>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,19 +34,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/overview.html">Overview</a>
+                <a class="nav-link" aria-current="page" href="overview.html">Overview</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/history.html">History</a>
+                <a class="nav-link" aria-current="page" href="history.html">History</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/resources.html">Resources</a>
+                <a class="nav-link" aria-current="page" href="resources.html">Resources</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/recommendations.html">Recommendations</a>
+                <a class="nav-link" aria-current="page" href="recommendations.html">Recommendations</a>
               </li>
             </ul>
             <form class="d-flex" role="search" data-bs-theme="light">
@@ -59,19 +60,62 @@
 
     <main>
       <div class="container-fluid py-5" id="homeImage">
-        <div class="mx-auto py-5">
-           <span>
-            <h1 class="text-center">An Ode to the 3x3</h1>
-           </span>
-        </div>  
+        <div class="py-5">
+           <div class="py-5">
+            <p class="text-center" style="font-family: Bebas Neue; font-size: 80px;">An Ode to the 3x3</h1>
+           </div>
+        </div>
       </div>
+      
       <div class="container">
-        <h1 class="text-center">[Home page content]</h1>
-        <h1>the quick brown fox jumps over the lazy dog</h1>
-        <h2>the quick brown fox jumps over the lazy dog</h2>
-        <h3>the quick brown fox jumps over the lazy dog</h3>
-        <h4>the quick brown fox jumps over the lazy dog</h4>
-        <p>random stuff</p>
+        <div class="row py-5">
+          <div class="col-12 col-lg-6">
+            <a href="https://www.rubiks.com/history">
+              <img src="assets/erno_rubik_0.jpg" alt="" style="width: 100%; border-radius: 15px;">
+            </a>
+          </div>
+          <div class="col-12 col-lg-6 align-self-center">
+            <h1 class="text-center my-4">History</h1>
+            <p style="font-size: x-large;">The Rubik's Cube was invented in 1974 by the hungarian professor of architecture, Ernő Rubik. Originally called the Magic Cube, this seemingly simple cube would go on to become one of the world's most recognizable and popular toys. The Rubik's Cube has provided countless people countless hours of wonder and frustration. </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a class="btn btn-outline-secondary me-md-2" href="history.html" role="button">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-12 col-lg-6 ">
+            <a href="#">
+              <img src="assets/scrambled_rubiks_cube_0.jpeg" alt="" style="width: 100%; border-radius: 15px;">
+            </a>
+          </div>
+          <div class="col-12 col-lg-6 align-self-center">
+            <h1 class="text-center my-4">Resources</h1>
+            <p style="font-size: x-large;">Want to learn more about the Rubik's cube? Maybe have one collecting dust and want to learn how to solve it? If you're up for the challenge there's plenty of guides to help you solve the cube. The current world record for solve time is 3.13 seconds, how hard could it be?</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a class="btn btn-outline-secondary me-md-2" href="resources.html" role="button">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-12 col-lg-6">
+            <a href="#">
+              <img src="assets/JPerm-Speed-Cube-Collection-2022-JPerm-WeiLong-WR-M-2021-MagLev-2.webp" alt="" style="width: 100%; border-radius: 15px;">
+            </a>
+          </div>
+          <div class="col-12 col-lg-6 align-self-center">
+            <h1 class="text-center my-4">Recommendations</h1>
+            <p style="font-size: x-large;">Interested in getting into cubing but don't know where to start? Don't worry there's plenty of products to choose from. No matter the skill level or price point there's probably something in store for you.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a class="btn btn-outline-secondary me-md-2" href="recommendations.html" role="button">Learn more</a>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
