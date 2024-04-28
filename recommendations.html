@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-
+      /* *{
+        border: black 1px dotted;
+      } */
     </style>
   </head>
   <body>
@@ -57,8 +59,323 @@
 
       </div>
       <div class="container">
+        <p>maybe do a series of collapse with an icon of the puzzle where you click it and it opens a collapse(?) with cards of several models of that puzzle</p>
         <h1 class="text-center">Recommendations</h1>
-        <p>fill with cards maybe?</p>
+        
+        <div class="accordion" id="accordionExample">
+          <!-- 2x2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2x2" aria-expanded="false" aria-controls="collapse2x2">
+                2 x 2
+              </button>
+            </h2>
+            <div id="collapse2x2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h4>2x2</h4>
+                <p>do 3 layers scare you? thats ok we can knock it down to 2</p> 
+
+                <div class="row">
+                  
+                  <div class="col-12 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">2x2 Rubik's Mini</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 3x3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3x3" aria-expanded="true" aria-controls="collapse3x3">
+                3 x 3
+              </button>
+            </h2>
+            <div id="collapse3x3" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h4>3x3</h4>
+                <p>good ol' reliable, the most popular option</p> 
+
+                <div class="row">
+
+                  <div class="col-12 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">3x3 Rubik's Cube</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 4x4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4x4" aria-expanded="false" aria-controls="collapse4x4">
+                4 x 4 
+              </button>
+            </h2>
+            <div id="collapse4x4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h4>4x4</h4>
+                <p>already know how to solve the 3x3, or are just a bit of a masochist? one of these might be more your speed. </p> 
+                
+                <div class="row">
+                  
+                  <div class="col-12 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">4x4 Rubik's Master</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- 5x5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5x5" aria-expanded="false" aria-controls="collapse5x5">
+                5 x 5
+              </button>
+            </h2>
+            <div id="collapse5x5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h4>5x5</h4>
+                <p>we're starting to go off the rails here. you either know what you're doing or are a total glutton for punishment</p>
+
+                <div class="row">
+                  
+                  <div class="col-12 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">5x5 Rubik's Professor</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- 6x6 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6x6+" aria-expanded="false" aria-controls="collapse6x6+">
+                6 x 6 +
+              </button>
+            </h2>
+            <div id="collapse6x6+" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h4>6x6</h4>
+                <p>showoff</p>
+
+                <div class="row">
+                  
+                  <div class="col-12 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- non-cuboid -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNonCuboid" aria-expanded="false" aria-controls="collapseNonCuboid">
+                Non-cubeoid
+              </button>
+            </h2>
+            <div id="collapseNonCuboid" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h4>Non-cuboid</h4>
+                <p>you're on your own from here</p>
+
+                <div class="row">
+                  
+                  <div class="col-12 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
       </div>
     </main>
 
