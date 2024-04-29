@@ -12,13 +12,15 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-
+      main #head{
+        background-color: #e8dfff;
+      }
     </style>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg" style="background-color: #9479d9;" data-bs-theme="dark">
-        <div class="container-fluid">
+        <div class="container-fluid" >
           <a class="navbar-brand" href="index.html">
             <div id="logo" style="width:50px;height:50px"></div>
           </a>
@@ -53,36 +55,86 @@
     </header>
 
     <main>
-        <div class="container-fluid">
-    
-        </div>
-        <div class="container">
-          <h1 class="text-center">Resources</h1>
-          <h2>Cube anatomy</h2>
-          <p>
-            first we're going to need to go over some cube anatomy <br>
-            a 3x3 cube is made up of three types of pieces: corners, edges, and centers. <br>
-            the centers are physically attached together by the core. <br>
-            this means that the orientation of the faces is always static. <br>
-            that's to say the white is always opposite yellow, the red is always opposite orange, the blue is always opposite green. <br>
-            some models might looks slightly different but they're all the same in concept <br>
-            centers have one face, edges have two, and corners have 3 faces. <br>
+      <div class="py-4 text-center" id="head">
+        <h1>Resources</h1>
+        <p>If you're looking to try and solve your cube you've come to the right place. <br> Strap in this might take a bit.</p>
+      </div>
+        <div class="container-fluid pt-4">
+          <div class="container">
+            <div class="row py-3">
+              <div class="col-12 col-lg-6">
+                <img src="assets/resources/Rubiks-Cube-Disassembled-1024x578.jpg" alt="" style="width: 100%; border-radius: 15px;">
+              </div>
+              <div class="col-12 col-lg-6 align-self-center ">
+                <h2 class="my-4 text-center">Cube anatomy</h2>
+                <p>
+                  First we're going to need to go over some cube anatomy.
+                  A 3x3 cube is made up of three types of pieces: corners, edges, and centers.
+                  Centers have one face, edges have two, and corners have 3 faces and
+                  the centers are physically attached together by the core. <br>
+                  <br>
+                  This means that the orientation of the faces is always static. 
+                  That's to say the white is always opposite yellow, the red is always opposite orange, the blue is always opposite green.
+                  Some models might look slightly different but they're all the same in concept <br>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="container">
+            <div class="row py-3">
+              <div class="col-12 col-lg-6 py-4">
+                <img src="assets/resources/complete-cube-notations.png" alt="" style="width: 100%; border-radius: 15px;">
+              </div>
+              <div class="col-12 col-lg-6 align-self-center ">
+                <h2 class="my-4 text-center">Cube Notation</h2>
+                <p>
+                  In order to learn algorithms (sequences of moves) to do specific actions on specific pieces we first need to go over how they're written. 
+                  We use cube notation to denote which face needs to be moved and in which direction. <br><br>
+                  For example an F would mean that we should turn the front face clockwise, while an F' (said as: F prime) means we should turn the front face counter clockwise. <br><br>
+                  By using this notation we can all be speaking the same language to describe the algorithms that we come up with. <br>
+                  <br>
 
-            <h2>cube notation</h2>
-            <p>
-              in order to build algorithms (sequences of moves) to do specific actions on specific pieces we first need to go over how they're written <br>
-              we use cube notation to denote which face needs to be moved and in which direction <br>
-              { insert images of cube notation } <br>
-              by using this notation we can all be speaking the same language to describe the algorithms that we come up with <br>
-            </p>
+                </p>
+              </div>
+            </div>
+          </div>
 
-            <h2>cfop</h2>
-            <p>
-              CFOP is the most widely used method for solving the 3x3 rubik's cube <br>
-              it's an acronym for <strong>C</strong>ross (completing the white cross) <strong>F</strong>2L (completing the first two layers) <strong>O</strong>LL (orienting last layer) <strong>P</strong>LL (permuting last layer) <br>
-              it's very similar in structure to the beginner's method that the Rubik's Brand website uses for their "You can solve the cube" instructions. 
-            </p>
-          </p>
+          <div class="container">
+            <div class="row py-3">
+              <div class="col-12 col-lg-6">
+                <iframe width="100%" height="350" src="https://www.youtube.com/embed/videoseries?si=M2etbw1iH7m3ENJM&amp;list=PLI24ciRbl8BUHEeOBaLXY4GpaVXSULYp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <div class="col-12 col-lg-6 align-self-center">
+                <h2 class="my-4  text-center">CFOP</h2>
+                <p>
+                  CFOP is the most widely used method for solving the 3x3 rubik's cube <br>
+                  it's an acronym for: <strong>C</strong>ross (completing the white cross) <strong>F</strong>2L (completing the first two layers) <strong>O</strong>LL (orienting last layer) <strong>P</strong>LL (permuting last layer) <br>
+                  The beginner's (layer by layer) method that the Rubik's Brand website uses for their "You can solve the cube" instructions, it's basically CFOP on training wheels. <br><br>
+                  If you would like the written beginner's method that the Rubik's brand teaches, click the button to take you to their website for that guide.
+                </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <a class="btn btn-outline-secondary me-md-2" href="https://www.rubiks.com/solution-guides" role="button">Written guide</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row py-3">
+              <div class="col-12 col-lg-6">
+                <iframe width="100%" height="350" src="https://www.youtube.com/embed/QKK8J3JKWi4?si=uyJahEguXMq9Wko2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <div class="col-12 col-lg-6 align-self-center">
+                <h2 class="my-4  text-center">Other Solving Methods</h2>
+                <p>
+                  There are many methods for solving the 3x3, the most popular ones for speed solving are CFOP, Roux, ZZ.
+                  J Perm made a good video on this so I'll let him explain it, he can do it better than I can.
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
     </main>
 
