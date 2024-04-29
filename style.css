@@ -10,13 +10,13 @@ h1,h2,h3,h4 {
     font-size: xx-large;
 }
 #logo{
-    background:url('/assets/icon.svg');
+    background:url('assets/icon.svg');
     transition: background .50s ease-in-out;
     -moz-transition: background .50s ease-in-out;
     -webkit-transition: background .50s ease-in-out;
 }
 #logo:hover{
-    background:url('/assets/icon_solved_big.svg');
+    background:url('assets/icon_solved_big.svg');
     transition: background .50s ease-in-out;
     -moz-transition: background .50s ease-in-out;
     -webkit-transition: background .50s ease-in-out;
