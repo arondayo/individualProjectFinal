@@ -21,6 +21,9 @@ h1,h2,h3,h4 {
     -moz-transition: background .50s ease-in-out;
     -webkit-transition: background .50s ease-in-out;
 }
+main #head{
+    background-color: #e8dfff;
+}
 /* *{
     border: 1px dotted black ;
 } */
